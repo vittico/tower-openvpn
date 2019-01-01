@@ -3,4 +3,3 @@ cd ~/easyrsa
 ./easyrsa gen-crl
 sudo cp /home/ubuntu/easyrsa/pki/crl.pem /etc/openvpn
 sudo systemctl restart openvpn@server
-sudo systemctl status openvpn@server
