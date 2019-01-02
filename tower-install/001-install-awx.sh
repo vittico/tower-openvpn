@@ -7,7 +7,7 @@ git fetch --all --tags --prune
 git checkout tags/2.1.2
 git clone https://github.com/ansible/awx-logos
 
-cd 
+cd .. 
 
 mkdir -p /home/ubuntu/awx-docker/postgres
 mkdir -p /home/ubuntu/awx-docker/awx
